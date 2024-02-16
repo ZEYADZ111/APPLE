@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Title Here</title>
+    <style>
+              /* ------------------------ Start of footer ------------------------ */
+      footer {
+        text-align: center;
+        background-color: white;
+        color: #000000;
+        padding: 10px;
+      }
+      /* ------------------------end of footer ------------------------ */
+
+        body {
+            background-color: #f8f8f8; /* Light gray background color */
+            text-align: center;
+            font-family: 'system-ui', '-apple-system', 'BlinkMacSystemFont', sans-serif;
+            margin: 0;
+            padding: 0;
+            font-size: 16px;
+            /* Default font size */
+        }
+
+        header {
+            background-color: #fff; /* White background color */
+            padding: 10px 20px;
+            position: relative;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Box shadow for header */
+        }
+
+        ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: space-around;
+            flex-grow: 1;
+            flex-wrap: wrap;
+            /* Ensure flexibility on smaller screens */
+        }
+
+        .nav-links a {
+            color: #000; /* Black text color */
+            text-decoration: none;
+            margin: 10px;
+            padding: 5px;
+            border-bottom: 2px solid transparent;
+            transition: .3s;
+            font-weight: bold; /* Bold text */
+        }
+
+        .nav-links a:hover {
+            border-bottom: 2px solid #0070c9; /* Apple blue on hover */
+        }
+
+        .access img {
+            width: 20px;
+            margin: 10px;
+            cursor: pointer;
+        }
+
+        .content img {
+            object-fit: contain;
+            width: 100%;
+            max-width: 800px;
+            display: block;
+            margin: auto;
+            margin-top: 30px;
+        }
+
+        .processor {
+            color: #000; /* Black text color */
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-top: 20px;
+            font-family: 'system-ui', '-apple-system', 'BlinkMacSystemFont', sans-serif;
+            padding: 30px;
+        }
+
+        .processor div {
+            flex: 1;
+            margin: 10px;
+        }
+
+        .processor h4 {
+            color: #6a6a6a; /* Gray text color */
+            font-weight: 400;
+            font-size: 16px;
+            margin: 5px 0;
+        }
+
+        .processor span {
+            font-size: 20px;
+            font-weight: 400;
+            padding: 5px;
+        }
+
+        .processor h3 {
+            font-size: 16px;
+            font-weight: 500;
+            margin: 5px 0;
+        }
+
+        .iphone img,
+        .vision img,
+        .IPAD img,
+        .watch img,
+        .airpods img,
+        .imac img {
+            max-width: 100%;
+            height: auto;
+            object-fit: contain;
+            width: 100%;
+            max-width: 800px;
+            display: block;
+            margin: auto;
+            margin-top: 30px;
+        }
+
+        .vision,
+        .IPAD,
+        .watch,
+        .airpods,
+        .imac {
+            max-width: 100%;
+            height: auto;
+            object-fit: contain;
+            width: 100%;
+            max-width: 500px;
+            display: block;
+            margin: auto;
+            margin-top: 30px;
+        }
+
+        .IPAD h2,
+        .watch h2,
+        .airpods h2 {
+            text-align: center; /* Center align the text */
+            color: #000; /* Black text color */
+        }
+
+        @media only screen and (max-width: 600px) {
+            /* Styles for small screens */
+            header {
+                padding: 5px 10px;
+                /* Adjust padding for smaller screens */
+            }
+
+            .nav-links {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .nav-links a {
+                font-size: 1.2vw;
+                /* Adjust font size based on viewport width */
+                margin: 5px;
+                padding: 3px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <ul class="nav-links">
+            <li><a href="#">STORE</a></li>
+            <li><a href="#">MAC</a></li>
+            <li><a href="#">IPAD</a></li>
+            <li><a href="#">IPHONE</a></li>
+            <li><a href="#">WATCH</a></li>
+            <li><a href="#">TV</a></li>
+            <li><a href="#">MUSIC</a></li>
+        </ul>
+        <div class="access flex">
+            <img src="apple (1).png" alt="Apple Logo">
+            <img src="search.png" alt="Search Icon">
+            <img src="iphone.png" alt="iPhone Icon">
+            <img src="menu.png" alt="Menu Icon">
+        </div>
+    </header>
+
+    <!-- Content -->
+    <div class="content">
+        <img src="maxresdefault.jpg" alt="Content Image">
+    </div>
+
+    <!-- Processor Details -->
+    <div class="processor">
+        <div>
+            <h4>up to</h4>
+            <h3><span>8</span>-core</h3>
+            <h4>Intel processors</h4>
+        </div>
+
+        <div>
+            <h4>up to</h4>
+            <h3><span>8</span>GHz</h3>
+            <h4>Turbo Boost</h4>
+        </div>
+
+        <div>
+            <h4>up to</h4>
+            <h3><span>8</span>GB</h3>
+            <h4>Memory</h4>
+        </div>
+    </div>
+
+    <!-- iPhone -->
+    <div class="iphone">
+        <img src="19_2023-638301566436471734-647.jpeg" alt="">
+    </div>
+
+    <!-- Vision -->
+    <div class="vision">
+        <img src="Vision pro.jpg" alt="">
+    </div>
+
+    <!-- iPad Pro -->
+    <div class="IPAD">
+
+        <img src="ipad pro.jpg" alt="">
+    </div>
+
+    <!-- Apple Watch -->
+    <div class="watch">
+        <img src="Apple Watch S9.jpg" alt="">
+    </div>
+  
+    <!-- iMac -->
+    <div class="imac">
+        <img src="Apple-Mac.webp" alt="">
+    </div>
+    <footer>
+        <p>&copy; 2024 My Website</p>
+      </footer>
+  
+</body>
+
+</html>
